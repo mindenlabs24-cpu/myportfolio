@@ -261,7 +261,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 
                 if (submitBtn) {
                     submitBtn.disabled = true;
-                    submitBtn.querySelector('span').textContent = 'Inatuma...';
+                    submitBtn.querySelector('span').textContent = 'Sending...';
                     if (sendIcon) sendIcon.setAttribute('data-lucide', 'loader-2');
                     if (typeof lucide !== 'undefined') lucide.createIcons();
                 }
@@ -276,7 +276,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     // Restore submit button
                     if (submitBtn) {
                         submitBtn.disabled = false;
-                        submitBtn.querySelector('span').textContent = 'Tuma Ujumbe';
+                        submitBtn.querySelector('span').textContent = 'Send Message';
                         if (sendIcon) sendIcon.setAttribute('data-lucide', 'send');
                         if (typeof lucide !== 'undefined') lucide.createIcons();
                     }
