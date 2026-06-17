@@ -117,11 +117,23 @@ button {
 
 /* Animated background color cycle */
 @keyframes bgCycle {
-  0% { background-color: #0D1B2A; }   /* dark blue */
-  25% { background-color: #0F9D58; }   /* green */
-  50% { background-color: #FF69B4; }   /* pink */
-  75% { background-color: #6A0DAD; }   /* purple */
-  100% { background-color: #0D1B2A; }
+  0%   { background-color: #0D1B2A; }   /* dark blue */
+  6.25% { background-color: #5F9EA0; }   /* steel blue */
+ 12.5% { background-color: #006d77; }   /* teal */
+ 18.75% { background-color: #20B2AA; }   /* light sea green */
+ 25%   { background-color: #0F9D58; }   /* green */
+ 31.25% { background-color: #FF4500; }   /* orange red */
+ 37.5% { background-color: #ff7f50; }   /* coral orange */
+ 43.75% { background-color: #8A2BE2; }   /* blue violet */
+ 50%   { background-color: #FF69B4; }   /* pink */
+ 56.25% { background-color: #FF8C00; }   /* dark orange */
+ 62.5% { background-color: #6A0DAD; }   /* purple */
+ 68.75% { background-color: #7FFF00; }   /* chartreuse */
+ 75%   { background-color: #FFD700; }   /* gold */
+ 81.25% { background-color: #ff1493; }   /* deep pink */
+ 87.5% { background-color: #FF1493; }   /* deep pink */
+ 93.75% { background-color: #FF00FF; }   /* magenta */
+ 100%  { background-color: #0D1B2A; }   /* back to dark blue */
 }
 
 body {
