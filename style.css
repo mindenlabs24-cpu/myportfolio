@@ -115,6 +115,20 @@ button {
     border: none;
 }
 
+/* Animated background color cycle */
+@keyframes bgCycle {
+  0% { background-color: #0D1B2A; }   /* dark blue */
+  25% { background-color: #0F9D58; }   /* green */
+  50% { background-color: #FF69B4; }   /* pink */
+  75% { background-color: #6A0DAD; }   /* purple */
+  100% { background-color: #0D1B2A; }
+}
+
+body {
+  animation: bgCycle 12s linear infinite;
+  transition: background-color 2s;
+}
+
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
     width: 10px;
